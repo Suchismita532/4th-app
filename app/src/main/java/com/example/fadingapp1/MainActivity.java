@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     public void fade(View view){
        ImageView doraemon=(ImageView)findViewById(R.id.doraemon);
-        ImageView nobita=(ImageView)findViewById(R.id.nobita)
+        ImageView nobita=(ImageView)findViewById(R.id.nobita);
         doraemon.animate().alpha(0f).setDuration(2000);
         nobita.animate().alpha(1f).setDuration(2000);
     }
